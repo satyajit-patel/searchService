@@ -16,3 +16,4 @@
 // do npx sequelize init outside the src
 // after giving te db info in src/config/config.json
 // use seuelize db create command inside the src to create database
+// and seuelize db create command inside the src
