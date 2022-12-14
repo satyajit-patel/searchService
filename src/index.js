@@ -1,9 +1,9 @@
 // setting up server
-import express from 'express'
+const express = require("express");
 
-import bodyParser from 'body-parser';
+const bodyParser = require("body-parser");
 
-import {PORT} from "./config/serverConfig.js";
+const {PORT} = require("./config/serverConfig.js");
 
 const setupAndStartServer = async () => {
     const app = express();
